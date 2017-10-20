@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <title>MyFirstView</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+              <div class="row">
+                  <div class="col-md-12">
+                      @Html.ActionLink("Go to My First View", "MyFirstView", "FirstView");
+                      @Html.ActionLink("Go to About", "About", "About");
+                  </div>
+            </div>
+
+            <h1>
+                Master page part
+            </h1>
+        </div>
+        <div>
+
+            @RenderBody()
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
