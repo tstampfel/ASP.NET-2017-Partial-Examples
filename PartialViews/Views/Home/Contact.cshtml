@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+@foreach (var item in ViewData["ListOfCars"] as IEnumerable<PartialViews.Controllers.Cars>)
+{
+
+    @Html.Partial("_CarsView", item);
+
+}

@@ -1,0 +1,37 @@
+﻿
+
+@model PartialViews.Controllers.Cars
+
+
+
+<table style="font-family:Arial; border:1px solid black; width: 400px">
+    <tr>
+        <td>
+            <img src="@Url.Content(Model.ImageUrl)" alt="" style="width:200px" />
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td><b>Name:</b></td>
+                    <td>@Model.Name</td>
+                </tr>
+                <tr>
+                    <td><b>HorsePower:</b></td>
+                    <td>@Model.HorsePower</td>
+                </tr>
+                <tr>
+                    <td><b>Year of Production:</b></td>
+                    <td>@Model.YearofProduction</td>
+                </tr>
+                <tr>
+                    <td><b>Speed:</b></td>
+                    <td>@Model.Speed</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+            
+     
