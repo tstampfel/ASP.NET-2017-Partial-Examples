@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViews", "PartialView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleValidation", "SimpleValidation\SimpleValidation.csproj", "{C6D27355-B52C-4A1A-A340-2028C93134B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidationtryout", "FluentValidationtryout\FluentValidationtryout.csproj", "{BD5572AD-06AC-483C-9F46-0A29F17865EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C6D27355-B52C-4A1A-A340-2028C93134B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D27355-B52C-4A1A-A340-2028C93134B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D27355-B52C-4A1A-A340-2028C93134B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5572AD-06AC-483C-9F46-0A29F17865EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5572AD-06AC-483C-9F46-0A29F17865EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5572AD-06AC-483C-9F46-0A29F17865EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5572AD-06AC-483C-9F46-0A29F17865EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
